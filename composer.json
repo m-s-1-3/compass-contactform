@@ -1,0 +1,30 @@
+{
+    "name": "zc-dev/compasscontactform",
+    "description": "Contact Form Module for Compass Framework Apps",
+    "authors": [
+        {
+            "name": "zc-dev",
+            "email": "dev@zeacom.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CompassContactForm\\Providers\\CompassContactFormServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CompassContactForm\\": "app/",
+            "Modules\\CompassContactForm\\Database\\Factories\\": "database/factories/",
+            "Modules\\CompassContactForm\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\CompassContactForm\\Tests\\": "tests/"
+        }
+    }
+}

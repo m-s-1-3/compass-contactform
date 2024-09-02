@@ -1,0 +1,11 @@
+{
+    "name": "CompassContactForm",
+    "alias": "compasscontactform",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CompassContactForm\\Providers\\CompassContactFormServiceProvider"
+    ],
+    "files": []
+}
