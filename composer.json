@@ -8,6 +8,7 @@
         }
     ],
     "extra": {
+        "compass-module": true,
         "laravel": {
             "providers": [
                 "Modules\\CompassContactForm\\Providers\\CompassContactFormServiceProvider"
